@@ -7,10 +7,10 @@ const moveRandom = document.getElementById("move-random");
 // Esprili mesaj dizisi (Hayır dedikçe değişecek)
 const mesajlar = [
   "Emin misin? 🥺",
-  "Bak küserim ama... 😭",
+  "Beni gerçekten sevmiyor musun? 😭",
   "Şaka yapıyorsun herhalde? 💔",
-  "Lütfen ama, barışalım artık! 🙏",
-  "İnat etme, 'Evet'e basıcaksın zaten! 🥰",
+  "Lütfen, biliyorsun ki seviyorsun! 🙏",
+  "İnat etme, 'Evet'e basacaksın zaten! 🥰",
   "Son şansın, kalbimi kırıyorsun! 💘"
 ];
 

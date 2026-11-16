@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  max-width: 450px;
+  width: 90%;
+  position: relative;
+}
+
+.gif-container img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #d63384;
+  font-size: 24px;
+  margin-bottom: 30px;
+  min-height: 60px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  min-height: 80px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#evetBtn {
+  background-color: #28a745;
+  color: white;
+  z-index: 10;
+}
+
+#evetBtn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+#hayirBtn {
+  background-color: #dc3545;
+  color: white;
+  position: relative;
+  transition: 0.15s ease-in-out;
+}
+
+/* no*.html sayfalarındaki link butonlar */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 80px;
+}
+
+.btn a {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn a:first-of-type {
+  background-color: #28a745;
+}
+
+.btn a:first-of-type:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.btn a:last-of-type {
+  background-color: #dc3545;
+  transition: 0.15s ease-in-out;
+}
+
+.btn a:last-of-type:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
